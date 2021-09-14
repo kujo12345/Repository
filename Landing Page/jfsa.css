@@ -1,0 +1,48 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(Pixeled.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: myOtherFont;
+  src: url(Pixellari.ttf);
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("pixel-jeff-clipa-s.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  
+}
+
+.text{
+  font-family: Pixeled;
+  transform: translate(430px, 100px);
+}
+
+.text2{
+  transform: translate(440px, 280px);
+  font-family: Pixeled;
+}
+
+.text3{
+  transform: translate(475px, 180px);
+  font-family: Pixeled;
+}
+.btn{
+  font-family: Pixeled;
+  transform: translate(490px, 430px);
+}
+
+footer {
+  text-align: center;
+
+  margin-bottom: auto;
+  color: white;
+}
